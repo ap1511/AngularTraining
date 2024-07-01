@@ -1,1 +1,26 @@
-welcome
+<header>
+    <div class="container">
+        <a routerLink="/"><img src="../../../assets/zomato_img/Zomato_company_logo.png"
+                style="width: 100px;margin-top: 10px;" alt=""> </a>
+        <nav>
+            <ul>
+                <li>
+                    <button data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+                </li>
+                <li class="menu-container">
+                    <a routerLink="/dashboard">Mine</a>
+                    <div class="menu">
+                        <a routerLink="/profile">Profile</a>
+                        <!-- <a routerLink="/order">Order</a> -->
+                        <a routerLink="/cart-page">Order</a>
+                        <a routerLink="/login">Logout</a>
+                    </div>
+                </li>
+
+                <li>
+                    <a routerLink="/cart-page">Cart <span>5</span></a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
